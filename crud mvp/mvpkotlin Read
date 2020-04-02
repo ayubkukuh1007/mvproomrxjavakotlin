@@ -1,0 +1,22 @@
+CRUD dengan Arctectur MVP + Room + Rxjava + kotlin 
+
+Studi kasus CRUD data user
+
+1. Buat sebuah package berinama Readuser
+   - Adapter
+     - Di dalam package Readuser buat sebuah package berinama adapter
+     - Buat layout untuk list users -> res -> layout -> berinama list_item.xml
+     - Di dalam Package adapter -> buat class baru -> klik kanan -> New -> pilih Kotlin flie/class berinama ListAdapter 
+
+   - Buat Activity baru -> klik kanan -> New > pilih Activity -> Pilih Template Empty Activity -> berinama ReadUser
+   - Pada Layout Activity Readuser tambahkan design viewnya -> res -> layout -> activity_read_user.xml
+
+2. Buat sebuah package berinama Detailuser
+   - Buat Activity baru -> klik kanan -> New > pilih Activity -> Pilih Template Empty Activity -> berinama DetailUser
+   - Pada Layout Activity DetailUser tambahkan design viewnya -> res -> layout -> activity_read_user.xml
+
+3. Jalankan Aplikasi
+
+    ALur MVP
+
+    room -> reprository -> intractor -> presenter -> UI
