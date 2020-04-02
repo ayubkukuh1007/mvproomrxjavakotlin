@@ -1,0 +1,14 @@
+CRUD dengan Arctectur MVP + Room + Rxjava + kotlin 
+
+Studi kasus CRUD data user
+
+1. Buat sebuah package berinama Updateuser
+
+   - Buat Activity baru -> klik kanan -> New > pilih Activity -> Pilih Template Empty Activity -> berinama Updateuser
+   - Pada Layout Activity Updateuser tambahkan design viewnya -> res -> layout -> activity_updateuser.xml
+
+2. Jalankan Aplikasi
+
+    ALur MVP
+
+    room -> reprository -> intractor -> presenter -> UI

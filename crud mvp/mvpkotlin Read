@@ -5,7 +5,7 @@ Studi kasus CRUD data user
 1. Buat sebuah package berinama Readuser
    - Adapter
      - Di dalam package Readuser buat sebuah package berinama adapter
-     - Buat layout untuk list users -> res -> layout -> berinama list_item.xml
+     - Buat layout untuk item list users -> res -> layout -> berinama list_item.xml
      - Di dalam Package adapter -> buat class baru -> klik kanan -> New -> pilih Kotlin flie/class berinama ListAdapter 
 
    - Buat Activity baru -> klik kanan -> New > pilih Activity -> Pilih Template Empty Activity -> berinama ReadUser
