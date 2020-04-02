@@ -15,7 +15,7 @@ import com.project.mvpkotlincrudroom.Room.User
 import com.project.mvpkotlincrudroom.Room.UserRoomDatabase
 import com.project.mvpkotlincrudroom.ui.Readuser.ReadUser
 import com.project.mvpkotlincrudroom.ui.Updateuser.Updateuser
-import kotlinx.android.synthetic.main.activity_update_user.*
+import kotlinx.android.synthetic.main.activity_detail_user.*
 
 class DetailUser : AppCompatActivity() {
 
@@ -25,7 +25,7 @@ class DetailUser : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_update_user)
+        setContentView(R.layout.activity_detail_user)
 
         val userDao = UserRoomDatabase.getDatabase(this).userDao();
         iUserRepository = UserRepository(userDao)

@@ -34,7 +34,6 @@ class Updateuser : AppCompatActivity() {
     lateinit var userPresenter: IUserPresenter
     lateinit var iUserRepository: IUserRepository
     lateinit var iUserInteractor: IUserInteractor
-    lateinit var namadpn : EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,8 +45,6 @@ class Updateuser : AppCompatActivity() {
         iUserRepository = UserRepository(userDao)
         iUserInteractor = UserInteractor(iUserRepository as UserRepository)
         userPresenter = UserPresenter(iUserInteractor)
-
-        namadpn = findViewById(R.id.namadepan)
 
         iduser?.let { (userPresenter as UserPresenter).getUserbyid(it) }
 
